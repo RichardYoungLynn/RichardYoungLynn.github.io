@@ -172,7 +172,7 @@ code {
     z-index: 1;
     filter: invert(50%);
     cursor: pointer;
-} 
+}
 
 .code-expand {
     position: absolute;
@@ -247,8 +247,12 @@ mark {
     margin-bottom: 0;
 }
 
+/*.bg-color {*/
+/*    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);*/
+/*}*/
+
 .bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background-image: linear-gradient(to right, #FF99CC 0%, #FF0066 100%);
 }
 
 .text-color {
@@ -259,12 +263,21 @@ mark {
     color: #fff;
 }
 
+/*.progress-bar {*/
+/*    height: 4px;*/
+/*    position: fixed;*/
+/*    bottom: 0;*/
+/*    z-index: 300;*/
+/*    background: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);*/
+/*    opacity: 0.8;*/
+/*}*/
+
 .progress-bar {
     height: 4px;
     position: fixed;
     bottom: 0;
     z-index: 300;
-    background: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background: linear-gradient(to right, #FF99CC 0%, #FF0066 100%);
     opacity: 0.8;
 }
 
